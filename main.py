@@ -14,3 +14,5 @@ async def on_ready():
 async def on_message(message):
 	if message.content.lower().startswith('t!'):
 		await client.send_message(message.chanel, "Tet bot")
+		
+client.login(process.env.BOT_TOKEN);

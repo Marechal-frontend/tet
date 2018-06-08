@@ -1,0 +1,12 @@
+{
+  "name": "Tet",
+  "description": "Discord bot",
+  "version": "1.0.0",
+  "main": "main.py",
+  "scripts": {
+    "start": "python main.py"
+  },
+  "dependencias": {
+    "discord.py": "3.6"
+   }
+}

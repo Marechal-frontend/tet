@@ -4,8 +4,6 @@ const client = new Discord.Client();
 
 const config = require("./config.json");
 
-var hug = ["https://i.imgur.com/ntqYLGl.gif", "https://i.imgur.com/BPLqSJC.gif", "https://i.imgur.com/nrdYNtL.gif", "https://i.imgur.com/v47M1S4"]
-
 client.on("ready", () => {
   console.log(`Bot iniciado, com ${client.users.size} usuarios, em ${client.channels.size} canais de ${client.guilds.size} servidores.`);
   client.user.setActivity(`com ${client.users.size} pessoas`);
@@ -44,7 +42,7 @@ client.on("message", async message => {
  
   .setTimestamp()
   .addField("Ajuda",
-    "**Kiss**: Dá um beijo na pessoa mencionada\n\n**Hug**: Abraça a pessoa mencionada\n\n**Say**: Diga X\n\n")
+    "**Kiss**: Dá um beijo na pessoa mencionada\n\n**Hug**: Abraça a pessoa mencionada\n\n**Say**: Diga X\n\n**Avatar**: Mostra a foto de perfil da pessoa mencionada\n\n")
 
   message.channel.send({embed});
   }

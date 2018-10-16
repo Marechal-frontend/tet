@@ -55,4 +55,3 @@ client.on("ready", () => {
     console.log(`Bot iniciado, com ${client.users.size} usuarios, em ${client.channels.size} canais de ${client.guilds.size} servidores.`);
   });
   
-client.login("NDg2NjE0MDAwOTY0OTkzMDI0.DnBwig.uDsx4LyEHBgnQ9wm80V9iARQnuE");
